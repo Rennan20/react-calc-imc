@@ -1,0 +1,29 @@
+.container{
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #E5E5E5;
+    margin-bottom: 0;
+}
+
+.header{
+    padding: 20px;
+    line-height: 40px;
+}
+.header p{
+    color: #2c5474;
+    font-weight: bold;
+    text-align: center;
+}
+.header p a{
+    text-decoration: 0;
+    color: #5b96a4;
+    transition: 0.5s cubic-bezier(.79,.23,.26,.91);
+}
+.header p a:hover{
+    color: #2c5474;
+}
